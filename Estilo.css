@@ -1,0 +1,106 @@
+/* Estilos para el encabezado */
+header {
+    background-color: #FFC300; /* Cambio a un color amarillo vivo */
+    color: #fff;
+    padding: 20px;
+    }
+    
+    header h1 {
+    margin: 0;
+    font-size: 36px;
+    }
+    
+    /* Estilos para la navegación */
+    
+    nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FF5733; /* Cambio a un color naranja vivo */
+    padding: 20px;
+    }
+    
+    nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    }
+    
+    nav li {
+    margin-right: 20px;
+    }
+    
+    nav a {
+    color: #fff; /* Cambio a un color blanco para que resalte en el fondo naranja */
+    text-decoration: none;
+    transition: color 0.5s;
+    }
+    
+    nav a:hover {
+    color: #FFC300; /* Cambio a un color amarillo vivo cuando hago hover */
+    }
+    
+    /* Estilos para el contenido principal */
+    
+    main {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    }
+    
+    main h2 {
+    font-size: 24px;
+    margin-top: 0;
+    }
+    
+    main p {
+    font-size: 16px;
+    }
+    
+    .producto {
+    width: calc(100% / 3 - 20px);
+    margin: 10px;
+    background-color: #FFC300; /* Cambio a un color amarillo vivo */
+    padding: 20px;
+    position: relative;
+    }
+    
+    .producto h3 {
+    font-size: 18px;
+    }
+    
+    .producto img {
+    max-width: 100%;
+    }
+    
+    .producto .precio {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 24px;
+    color: #FF5733; /* Cambio a un color naranja vivo para que resalte */
+    }
+    
+    /* Estilos para el pie de página */
+    
+    footer {
+    background-color: #FF5733; /* Cambio a un color naranja vivo */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+        background: url("img/Fondo.png"); 
+        background-repeat: no-repeat;
+        background-size: cover ;
+        background-attachment: fixed ;
+        background-position: center;
+        font-family: sans-serif;
+    }
+      
+    
+    
+    
